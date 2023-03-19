@@ -4,81 +4,337 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Henrique Berti Vital - Site pessoal</title>
-    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Henrique Vital</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#about">Sobre mim</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contato</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <section id="about">
-        <div class="container">
-            <img class="store-font"  src="./images/eu.jpg" alt="Fachada da loja Games Shop">
-            <div>
-                <h2>Sobre mim</h2>
-                <p>
-                    Sou um desenvolvedor frontend junior com entusiasmo e paixão por aprender e aprimorar suas habilidades em HTML, CSS e JavaScript, buscando oportunidades para contribuir em projetos desafiadores e crescer em sua carreira.
-                </p>
-                <p>
-                    Com uma mentalidade colaborativa e disposição para trabalhar em equipe, me dedico a entender as necessidades dos usuários e aprimorar a experiência do usuário em cada projeto. Este desenvolvedor junior é uma adição valiosa para qualquer equipe de desenvolvimento frontend.
-                </p>
-                <br>            
-                <ul class="brands-list"> 
-                    <li><img src="./images/logo-html-200.png" alt="html"></li>
-                    <li><img src="./images/logo-css-200.png" alt="css"></li>
-                    <li><img src="./images/curso-javascript.png" alt="js"></li>
-                    <li><img src="./images/vscode-icon.png" alt="vs"></li>
-                    <li><img src="./images/glup.png" alt="glup"></li>
-                    <li><img src="./images/vue.png" alt="vue"></li>
-                    <li><img src="./images/react-logo.png" alt="js"></li>
-                    <li><img src="./images/jq.png" alt="jq"></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section id="contact">
-        <div class="container">
-            <h2>Contato</h2>
-            <div class="contact-methods">
-                
-                <div>
-                    <h3>Me acompanhe nas redes sociais</h3>
-                    <ul class="social-links">
-                        <li>
-                            <a href="https://www.instagram.com/hvitall/"><img src="./images/instagram.png" alt="Logo do Instagram"></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/henrique.vital1"><img src="./images/facebook.png" alt="Logo do facebook"></a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/channel/UCzc2cDWNFkKymxNqBMs09Og"><img src="./images/youtube.png"alt="Logo do youtube"></a>
-                        </li>
-                    </ul>
+    <div >
+        <section id="portifolio" class="pt-5 pb-5">
+            <div class="container text-center ">
+                <!--<div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossos <span class="text-colored">projetos</span>
+                    </h2>
+                </div>-->
+                <div class="row ">
+                    <aside id="menuesquerdo" class="col-md-3">
+                        <h2>
+                            Henrique B. Vital
+                        </h2>
+                        <img src="./images/IMG-20200324-WA0031.jpg" class="rounded-circle pt-5 pb-5" width="320" height="320"  alt="">
+                        <p>
+                            Olá, meu nome é Henrique Berti Vital sou <span class="text-colored">desenvolvedor de sistemas Front-End.</span>
+                        </p>
+                        <h5>
+                            Seja bem vindo!
+                        </h5>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="https://www.linkedin.com/in/henrique-vital/" target="_blank">
+                                    <i class="bi bi-linkedin text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-2 me-2">
+                                <a href="https://github.com/Henrique-Vital" target="_blank">
+                                    <i class="bi bi-github text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="https://wa.me/5512996172198" target="_blank">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="social-links">
+                            <li class="fs-5 me-2">
+                                <a href="mailto:hbvbrasil@gmail.com" target="_blank">
+                                    <i class="bi bi-envelope text-colored"></i>
+                                    
+                                </a>
+                                <p>hbvbrasil@gmail.com</p>
+                            </li>
+                        </ul>
+                    
+                        <nav class="nav nav-pills flex-column nav-portifolio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#alvara-de-construcao" class="fw-bold text-start nav-link text-colored-1 active">Veja alguns de meus projetos WEB</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#habitese" class="fw-bold text-start nav-link text-colored-1">- Projetos de construção civil</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#regularizacoes" class="fw-bold text-start nav-link text-colored-1">Em construção</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#atestado-de-regularidade" class="fw-bold text-start nav-link text-colored-1">Em construção</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#ampliacoes" class="fw-bold text-start nav-link text-colored-1">Em construção</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#demolicoes" class="fw-bold text-start nav-link text-colored-1">Em construção</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#projeto-arquitetonico" class="fw-bold text-start nav-link text-colored-1">Em construção</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#projeto-estrutural" class="fw-bold text-start nav-link text-colored-1">Em construção</button>
+                        </nav>
+                    </aside>
+                    <div id="contweb" class="col-md-9">
+                        <div class="tab-content">
+                            <div class="tab-pane active text-start" id="alvara-de-construcao">
+                                <div class="row">
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-11">
+                                        <h1>Henrique Berti Vital</h1>
+                                        <h3 class="text-colored fw-bold mt-2">Desenvolvedor de sistemas</h3>
+                                        <br>
+                                        <p>
+                                            Sou um desenvolvedor web com habilidades em linguagens e frameworks front-end, construção de páginas web responsivas e acessíveis, boas práticas de desenvolvimento, ferramentas de controle de versão e trabalho em equipe para resolver problemas com soluções criativas. 
+                                        </p>
+                                        <p>
+                                            Conhecimento nas linguagens HTML, CSS e JavaScript. E nos frameworks de front-end como: React, Angular ou Vue. 
+                                        </p>
+                                        <p>
+                                            Experiência na construção de páginas web responsivas e acessíveis. Com capacidade de trabalhar com bibliotecas de terceiros e plugins, como jQuery. 
+                                        </p>
+                                        <p>
+                                            Compreensão das melhores práticas de desenvolvimento web, incluindo testes automatizados e otimização de desempenho.
+                                        </p>
+                                        <p>
+                                            Familiaridade com ferramentas de controle de versão, como Git. 
+                                        </p>
+                                        <p>
+                                            Habilidade em resolver problemas com soluções criativas, trabalhar em equipe e colaborar com outros desenvolvedores e designers. 
+                                        </p>
+                                        <p>
+                                            Minhas stacks: HTML5, CSS, JavaScript, TypeScript, VueJs, Git/Github, nodeJS, jQuery, Bootstrap, SASS, LESS, Gulp, Grunt, React.
+                                        </p>
+                                        <p>
+                                            Minhas soft-skills 
+                                        </p>
+                                        <p>
+                                            <ul>
+                                                <li>
+                                                    Liderança
+                                                </li>
+                                                <li>
+                                                    Trabalho em equipe
+                                                </li>
+                                                <li>
+                                                    Organização
+                                                </li>
+                                                <li>
+                                                    Capacidade de resolver problemas
+                                                </li>
+                                                <li>
+                                                    Empatia
+                                                </li>
+                                                <li>
+                                                    Boa comunicação
+                                                </li>
+                                                <li>
+                                                    Determinação
+                                                </li>
+                                            </ul>
+                                        </p>
+                                        <hr>
+                                        <h5>
+                                            Meus conhecimentos
+                                        </h5>
+                                        <br>
+                                        <p>
+                                            Conheça as tecnologias que me dedico!
+                                        </p>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <p>
+                                                    Front-End
+                                                </p>
+                                                <i class="bi bi-facebook text-colored"></i>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <p>
+                                                    Front-End
+                                                </p>
+                                                <i class="bi bi-facebook text-colored"></i>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <p>
+                                                    Front-End
+                                                </p>
+                                                <i class="bi bi-facebook text-colored"></i>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <p>
+                                                    Front-End
+                                                </p>
+                                                <i class="bi bi-facebook text-colored"></i>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <p>
+                                                    Front-End
+                                                </p>
+                                                <i class="bi bi-facebook text-colored"></i>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <p>
+                                                    Front-End
+                                                </p>
+                                                <i class="bi bi-facebook text-colored"></i>
+                                            </div>
+                                        </div>
+                                    </div>                                                                  
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="habitese">
+                                <div class="row">
+                                    <div class="col-md-1">
+
+                                    </div>
+                                    <div class="col-md-5">
+                                        <img class="d-block w-100" src="./images/portifolio/habitese-subprefeitura.jpg" width="350" height="350" alt="Cerveja">
+                                        <h5 class="text-colored fw-bold mt-2">Habite-se</h5>
+                                        <p>
+                                            Habite-se certificado de aprovaçao de moradia da prefeitura.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <img class="d-block w-100" src="./images/portifolio/habitse.jpg" width="350" height="350" alt="Vinho">
+                                        <h5 class="text-colored fw-bold mt-2">Habite-se</h5>
+                                        <p>
+                                            Habite-se certificado de aprovaçao de moradia da prefeitura.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="regularizacoes">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./images/portifolio/page_1_Projeto regularização (1).jpg" width="350" height="350" alt="Entrada">
+                                        <h5 class="text-colored fw-bold mt-2">Projeto de regularização</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./images/portifolio/page_1_Planta baixa Isabel.jpg" width="350" height="350" alt="Entrada">
+                                        <h5 class="text-colored fw-bold mt-2">Projeto de regularização</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="atestado-de-regularidade">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./images/portifolio/page_1_Novo projeto Rosa Dalacqua.jpg" width="350" height="350" alt="Pizza">
+                                        <h5 class="text-colored fw-bold mt-2">Atestado de regularidade</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./images/portifolio/page_1_Novo projeto Rosa Dalacqua.jpg" width="350" height="350" alt="Salmão">
+                                        <h5 class="text-colored fw-bold mt-2">Atestado de regularidade</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./images/portifolio/page_1_Novo projeto Rosa Dalacqua.jpg" width="350" height="350" alt="Pizza">
+                                        <h5 class="text-colored fw-bold mt-2">Atestado de regularidade</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./images/portifolio/page_1_Novo projeto Rosa Dalacqua.jpg" width="350" height="350" alt="Salmão">
+                                        <h5 class="text-colored fw-bold mt-2">Atestado de regularidade</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>                                   
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="ampliacoes">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./images/portifolio/page_1_POUSADA 4.jpg" width="350" height="350" alt="Cupcake">
+                                        <h5 class="text-colored fw-bold mt-2">Ampliações</h5>
+                                        <p>
+                                            Projeto para ampliações.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./images/portifolio/page_1_POUSADA 4.jpg" width="350" height="350" alt="Bolo">
+                                        <h5 class="text-colored fw-bold mt-2">Ampliações</h5>
+                                        <p>
+                                            Projeto para ampliações.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="demolicoes">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./images/portifolio/page_1_Planta baixa Isabel.jpg" width="350" height="350" alt="Cupcake">
+                                        <h5 class="text-colored fw-bold mt-2">Demoloções</h5>
+                                        <p>
+                                            Projeto de demolição.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./images/portifolio/page_1_Predio Vila 2.jpg" width="350" height="350" alt="Bolo">
+                                        <h5 class="text-colored fw-bold mt-2">Demoloções</h5>
+                                        <p>
+                                            Projeto de demolição.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="projeto-arquitetonico">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./images/portifolio/page_1_Arquitetônico Isabel.jpg" width="350" height="350" alt="Cupcake">
+                                        <h5 class="text-colored fw-bold mt-2">Arquitetonico</h5>
+                                        <p>
+                                            Projeto arquitetonico.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./images/portifolio/page_1_Arquitetônico Isabel.jpg" width="350" height="350" alt="Bolo">
+                                        <h5 class="text-colored fw-bold mt-2">Arquitetonico.</h5>
+                                        <p>
+                                            Projeto arquitetonico.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="projeto-estrutural">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./images/portifolio/estrutural2.png" width="350" height="350" alt="Cupcake">
+                                        <h5 class="text-colored fw-bold mt-2">Estrutural</h5>
+                                        <p>
+                                            Projeto Estrutural.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img class="d-block w-100" src="./images/portifolio/estrutural2.png" width="350" height="350" alt="Bolo">
+                                        <h5 class="text-colored fw-bold mt-2">Estrutural</h5>
+                                        <p>
+                                            Projeto Estrutural.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <footer>
-        <div class="container">
-            <p>
-                &copy; Henrique Berti Vital - Todos os direitos reservados - 2023
-            </p>
-        </div>
-    </footer>
+        </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
