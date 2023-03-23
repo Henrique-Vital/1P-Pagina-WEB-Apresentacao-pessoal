@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #ffffff;
 }
 
@@ -20,14 +22,14 @@ body {
 }
 
 .navbar-toggler {
-    background-color: #222f3e;
+    background-color: #db2626;
 }
 .section-title {
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 #sobre-a-empresa, #portifolio {
-    background-color: #0b0f14;
+    background-color: #181c1f;
 }
 
 .text-colored-1 {
@@ -38,9 +40,13 @@ body {
     color: #2da752;
 }
 
+#habitese, #regularizacoes, #atestado-de-regularidade, #ampliacoes {
+    padding-left: 100px;
+}
+
 .nav-portifolio .nav-link.active,
 #fale-conosco button {
-    background-color:  #253242;
+    background-color:  #282c2f;
     color: #ececec;
 }
 
@@ -51,6 +57,7 @@ body {
 .social-links li {
     list-style: none;
     display: inline;
+    
 }
 
 .social-links a {
