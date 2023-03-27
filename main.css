@@ -1,9 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/*dark mode*/
+
 body {
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
 }
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 12px;
+    
+}
+
+.btn-custom {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+}
+  
 
 .navbar {
     background-color:  #222f3e;
@@ -40,18 +60,20 @@ body {
     color: #2da752;
 }
 
-#habitese, #regularizacoes, #atestado-de-regularidade, #ampliacoes {
-    padding-left: 10px;
+#menuesquerdo, #perfil-pessoal, #projeto1, #projeto2, #projeto3, #projeto4 {
+    padding: 40px;
+    border: 1px solid rgb(43, 43, 43); 
+    border-radius: 10px;
 }
 
 .nav-portifolio .nav-link.active,
 #fale-conosco button {
-    background-color:  #282c2f;
+    background-color:  #323232;
     color: #ececec;
 }
 
 .nav-portifolio .nav-link:hover {
-    color: #bfcad6;
+    color: #252a30;
 }
 
 .social-links li {

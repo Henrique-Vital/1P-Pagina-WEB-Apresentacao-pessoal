@@ -4,30 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>portifolio</title>
     <link rel="shortcut icon" href="./favicon (1).ico"  type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./main.css" id="style-sheet-1">
+    <link rel="stylesheet" href="./main1.css" id="style-sheet-2" disabled>
 </head>
-<body>
-    <div >
-        <section id="portifolio" class="pt-5 pb-5">
-            <div class="container">
-                <!--<div class="row">
-                    <h2 class="section-title text-center mb-5">
-                        Nossos <span class="text-colored">projetos</span>
-                    </h2>
-                </div>-->
+<body>  
+    <div >        
+        <section id="portifolio" class="pt-5 pb-5">            
+            <div class="container">               
                 <div class="row ">
-                    <aside id="menuesquerdo" class="text-center col-md-4">
+                    <div class="d-flex justify-content-end flex-column align-items-center" id="botao-modo-noturno">
+                        
+                        <button onclick="trocarFolhaDeEstilo()" class="btn btn-custom"><i class="bi bi-moon"></i>  MODO NOTURNO</button>
+                    </div>
+
+                    <aside id="menuesquerdo" class=" text-center col-md-4 mr-5">                        
                         <h2>
                             Henrique B. Vital
                         </h2>
-                        <img src="./images/IMG-20200324-WA0031.jpg" style="object-fit: contain; border-radius: 50%;" class="mt-5 mb-5" width="220" height="220"  alt="">
+                        <img src="./images/fotohv.png" style="object-fit: contain; border-radius: 50%;" class="img-fluid mx-auto mt-5 mb-5" width="220" height="220"  alt="">
                         <p>
                             Olá, meu nome é Henrique Berti Vital sou <span class="text-colored">desenvolvedor de sistemas Front-End.</span>
                         </p>
@@ -57,20 +58,18 @@
                             </li>
                         </ul>
                         <nav class="nav nav-pills flex-column nav-portifolio">
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#alvara-de-construcao" class=" text-start nav-link text-colored-1 active">Perfil pessoal</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#habitese" class="text-start nav-link text-colored-1">Site - HTML / CSS / Bootstrap</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#regularizacoes" class="text-start nav-link text-colored-1">Em construção</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#atestado-de-regularidade" class="text-start nav-link text-colored-1">Em construção</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#ampliacoes" class="text-start nav-link text-colored-1">Em construção</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#perfil-pessoal" class=" text-start nav-link text-colored-1 active">Perfil pessoal</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#projeto1" class="text-start nav-link text-colored-1">Site - HTML / CSS / Bootstrap</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#projeto2" class="text-start nav-link text-colored-1">Em construção</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#projeto3" class="text-start nav-link text-colored-1">Em construção</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#projeto4" class="text-start nav-link text-colored-1">Em construção</button>
                             
                         </nav>
-                        <hr>
-                        <br>
                     </aside>
                     
                     <div id="contweb" class="col-md-8">
                         <div class="tab-content">
-                            <div class="tab-pane active text-start" id="alvara-de-construcao">
+                            <div class="tab-pane active text-start" id="perfil-pessoal">
                                 <div class="row">
                                     <div class="col-md-1"></div>
                                     <div class="col-md-11">
@@ -130,12 +129,11 @@
                                         <h5>
                                             Meus conhecimentos
                                         </h5>
-                                        <br>
+                                        
                                         <p>
                                             Conheça as tecnologias que me dedico!
-                                        </p>
-                                        <br>
-                                        <div class="row">
+                                        </p>                                       
+                                        <div class="row ">
                                             <div class="col-md-4">
                                                 <p>
                                                     Front-end
@@ -149,50 +147,51 @@
                                                 <p>
                                                     Back-end
                                                 </p>
-                                                <img src="./images/logo-html-200.png" width="20" height="20" alt="">
-                                                <img src="./images/logo-html-200.png" width="20" height="20" alt="">
+                                                <img src="./images/logo-html-200.png" width="30" height="30" alt="">
+                                                <img src="./images/logo-html-200.png" width="30" height="30" alt="">
                                             </div>
                                             <div class="col-md-4">
                                                 <p>
                                                     Data-base
                                                 </p>
-                                                <img src="./images/logo-html-200.png" width="20" height="20" alt="">
-                                                <img src="./images/logo-html-200.png" width="20" height="20" alt="">
+                                                <img src="./images/logo-html-200.png" width="30" height="30" alt="">
+                                                <img src="./images/logo-html-200.png" width="30" height="30" alt="">
                                             </div>
                                         </div>
                                         <br>
-                                        <div class="row">
+                                        <div class="row ">
                                             <div class="col-md-4">
                                                 <p>
                                                     Front-end Frameworks
                                                 </p>
-                                                <img src="./images/png-transparent-bootstrap-plain-wordmark-logo-icon.png" width="20" height="20" alt="">
-                                                <img src="./images/logo-html-200.png" width="20" height="20" alt="">
+                                                <img src="./images/png-transparent-bootstrap-plain-wordmark-logo-icon.png" width="30" height="30" alt="">
+                                                <img src="./images/logo-html-200.png" width="30" height="30" alt="">
                                             </div>
                                             <div class="col-md-4">
                                                 <p>
                                                     Back-end Frameworks
                                                 </p>
-                                                <img src="./images/logo-html-200.png" width="20" height="20" alt="">
-                                                <img src="./images/logo-html-200.png" width="20" height="20" alt="">
+                                                <img src="./images/logo-html-200.png" width="30" height="30" alt="">
+                                                <img src="./images/logo-html-200.png" width="30" height="30" alt="">
                                             </div>
                                             <div class="col-md-4">
                                                 <p>
                                                     Tools
                                                 </p>
-                                                <img src="./images/vscode-icon.png" width="20" height="20" alt="">
-                                                <img src="./images/glup.png" width="20" height="20" alt="">
+                                                <img src="./images/vscode-icon.png" width="30" height="30" alt="">
+                                                <img src="./images/glup.png" width="30" height="30" alt="">
                                             </div>
                                         </div>
+                                        <br>
                                     </div>                                                                  
                                 </div>
                             </div>
-                            <div class="tab-pane" id="habitese">
+                            <div class="tab-pane" id="projeto1">
                                 <div class="row">
                                     
                                     <div class="col-md-12">
                                         <a href="https://modulo-14-eta.vercel.app/" target="_blank">
-                                            <img class="d-block w-100 rounded md-2" src="./images/siteedifica.png"  alt="Foto do site vital edifica">
+                                            <img class=" img-fluid mx-auto  rounded md-2" src="./images/siteedifica.png"  alt="Foto do site vital edifica">
                                         </a>
                                         <h5 class="text-colored fw-bold mt-2">HTML CSS Bootstrap</h5>
                                         <p>
@@ -204,17 +203,17 @@
                                     
                                 </div>
                             </div>
-                            <div class="tab-pane" id="regularizacoes">
+                            <div class="tab-pane" id="projeto2">
                                 <div class="row">
-                                    <div class="col-md-6">
-                                        <img class="d-block w-100" src="./images/portifolio/page_1_Projeto regularização (1).jpg" width="350" height="350" alt="Entrada">
+                                    <div class="col-md-6 ">
+                                        <img class="img-fluid mx-auto  rounded md-2" src="./images/portifolio/page_1_Projeto regularização (1).jpg" width="350" height="350" alt="Entrada">
                                         <h5 class="text-colored fw-bold mt-2">Projeto de regularização</h5>
                                         <p>
                                             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                                         </p>
                                     </div>
                                     <div class="col-md-6">
-                                        <img class="d-block w-100" src="./images/portifolio/page_1_Planta baixa Isabel.jpg" width="350" height="350" alt="Entrada">
+                                        <img class="img-fluid mx-auto  rounded md-2" src="./images/portifolio/page_1_Planta baixa Isabel.jpg" width="350" height="350" alt="Entrada">
                                         <h5 class="text-colored fw-bold mt-2">Projeto de regularização</h5>
                                         <p>
                                             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -222,7 +221,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane" id="atestado-de-regularidade">
+                            <div class="tab-pane" id="projeto3">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <img class="d-block w-100" src="./images/IMG-20200324-WA0031.jpg" width="350" height="350" alt="Pizza">
@@ -254,7 +253,7 @@
                                     </div>                                   
                                 </div>
                             </div>
-                            <div class="tab-pane" id="ampliacoes">
+                            <div class="tab-pane" id="projeto4">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <img class="d-block w-100" src="./images/portifolio/page_1_POUSADA 4.jpg" width="350" height="350" alt="Cupcake">
@@ -272,66 +271,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane" id="demolicoes">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <img class="d-block w-100" src="./images/portifolio/page_1_Planta baixa Isabel.jpg" width="350" height="350" alt="Cupcake">
-                                        <h5 class="text-colored fw-bold mt-2">Demoloções</h5>
-                                        <p>
-                                            Projeto de demolição.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <img class="d-block w-100" src="./images/portifolio/page_1_Predio Vila 2.jpg" width="350" height="350" alt="Bolo">
-                                        <h5 class="text-colored fw-bold mt-2">Demoloções</h5>
-                                        <p>
-                                            Projeto de demolição.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="projeto-arquitetonico">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <img class="d-block w-100" src="./images/portifolio/page_1_Arquitetônico Isabel.jpg" width="350" height="350" alt="Cupcake">
-                                        <h5 class="text-colored fw-bold mt-2">Arquitetonico</h5>
-                                        <p>
-                                            Projeto arquitetonico.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <img class="d-block w-100" src="./images/portifolio/page_1_Arquitetônico Isabel.jpg" width="350" height="350" alt="Bolo">
-                                        <h5 class="text-colored fw-bold mt-2">Arquitetonico.</h5>
-                                        <p>
-                                            Projeto arquitetonico.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="projeto-estrutural">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <img class="d-block w-100" src="./images/portifolio/estrutural2.png" width="350" height="350" alt="Cupcake">
-                                        <h5 class="text-colored fw-bold mt-2">Estrutural</h5>
-                                        <p>
-                                            Projeto Estrutural.
-                                        </p>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <img class="d-block w-100" src="./images/portifolio/estrutural2.png" width="350" height="350" alt="Bolo">
-                                        <h5 class="text-colored fw-bold mt-2">Estrutural</h5>
-                                        <p>
-                                            Projeto Estrutural.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
     </div>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="./js/jquery.mask.min.js"></script>
