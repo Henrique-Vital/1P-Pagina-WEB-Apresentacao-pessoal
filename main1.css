@@ -20,17 +20,18 @@ button {
     justify-content: flex-end;
 }
 .btn-custom2 {
-    background-color: rgb(233, 244, 255);
+    background-color: rgb(117, 117, 151) ;
     color: #000000;
+    
 }
 .section-title {
     font-family: 'Poppins', sans-serif;
 }
-.text-colored-1 {
+.text-colored1 {
     color: #000000;
 }
 .text-colored {
-    color: #06196e;
+    color: #1e2b5d;
 }
 #perfil-pessoal, #menuesquerdo, #projeto1, #projeto2, #projeto3, #projeto4 {
     padding: 40px;
