@@ -6,8 +6,8 @@ body {
     color: #ffffff;
 }
 button {
-    background-color: #333;
-    color: #fff;
+    background-color:  #222f3e;
+    color: #ffffff;
     border: none;
     padding: 10px 20px;
     font-size: 1rem;
@@ -29,13 +29,13 @@ button {
 }
 #cabecalho .nav .nav-link.active {
     background-color: #d84949;
-    color: #ffffff;
+    color: #9a3d3d;
 }
 #cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover ,
 .nav-portifolio .nav-link.active:hover {
-    color:#d4d4d4;
+    color:#b53030;
 }
 .navbar-toggler {
     background-color: #db2626;
@@ -49,7 +49,7 @@ button {
     color: #ffffff;
 }
 .text-colored {
-    color: #2da752;
+    color: #3291fe;
 }
 #menuesquerdo, #perfil-pessoal, #projeto1, #projeto2, #projeto3, #projeto4 {
     padding: 40px;
