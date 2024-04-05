@@ -23,6 +23,11 @@ button {
 .btn-custom2 {
     background-color:  #222f3e;
     color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer; 
 }
 .navbar {
     background-color:  #222f3e;

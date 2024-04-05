@@ -20,7 +20,7 @@ button {
     justify-content: flex-end;
 }
 .btn-custom2 {
-    background-color: rgb(233, 244, 255);
+    background-color: rgb(0, 132, 255);
     color: #000000;
 }
 .section-title {
@@ -46,7 +46,7 @@ button {
     text-decoration: none;
 }
 .nav-portifolio .nav-link:hover {
-    color: #1f3d5e;
+    color: #031325;
 }
 @media (max-width: 767px) {
     .carousel-item img {
