@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 /*dark mode*/
-
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #333;
     color: #ffffff;
 }
-
 button {
     background-color: #333;
     color: #fff;
@@ -14,78 +12,66 @@ button {
     padding: 10px 20px;
     font-size: 1rem;
     border-radius: 5px;
-    cursor: pointer;
-    
-    
+    cursor: pointer;  
 }
-
 .btn-custom {
     font-size: 0.75rem;
     padding: 0.25rem 0.5rem;
+    background-color:  #222f3e;
+    color: #ffffff;
 }
-  
-
+.btn-custom2 {
+    background-color:  #222f3e;
+    color: #ffffff;
+}
 .navbar {
     background-color:  #222f3e;
 }
-
 #cabecalho .nav .nav-link.active {
     background-color: #d84949;
     color: #ffffff;
 }
-
 #cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover ,
 .nav-portifolio .nav-link.active:hover {
     color:#d4d4d4;
 }
-
 .navbar-toggler {
     background-color: #db2626;
-}
-.section-title {
+}.section-title {
     font-family: 'Poppins', sans-serif;
 }
-
 #sobre-a-empresa, #portifolio {
     background-color: #181c1f;
 }
-
 .text-colored-1 {
     color: #ffffff;
 }
-
 .text-colored {
     color: #2da752;
 }
-
 #menuesquerdo, #perfil-pessoal, #projeto1, #projeto2, #projeto3, #projeto4 {
     padding: 40px;
     border: 1px solid rgb(43, 43, 43); 
     border-radius: 10px;
 }
-
 .nav-portifolio .nav-link.active,
 #fale-conosco button {
     background-color:  #323232;
     color: #ececec;
 }
-
 .nav-portifolio .nav-link:hover {
     color: #252a30;
 }
-
 .social-links li {
     list-style: none;
     display: inline;
     
 }
-
 .social-links a {
     text-decoration: none;
 }
-
 @media (max-width: 767px) {
     .carousel-item img {
         height: 280px
