@@ -58,7 +58,7 @@ button {
 }
 #menuesquerdo, #perfil-pessoal, #projeto1, #projeto2, #projeto3, #projeto4 {
     padding: 40px;
-    border: 1px solid rgb(43, 43, 43); 
+    border: 1px solid rgb(96, 96, 96); 
     border-radius: 10px;
 }
 .nav-portifolio .nav-link.active,
