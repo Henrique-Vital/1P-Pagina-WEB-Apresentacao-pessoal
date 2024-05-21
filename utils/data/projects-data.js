@@ -18,11 +18,11 @@ export const projectsData = [
             "Análise de dados", 
             "Automatização de processos"
         ],
-        role: 'Full Stack Developer',
-        code: '', // Pode ser deixado em branco ou preenchido com um link para um repositório específico
-        demo: '', // Deixe em branco ou preencha com um link para demonstração de um projeto
+        role: 'Desenvolvedor Front-end',
+        code: '', 
+        demo: '', 
         link: 'https://henrique-vital-dev-five.vercel.app/', // Link para o perfil do GitHub
-        image: '' // Deixe em branco ou preencha com um link para uma imagem de perfil
+        image: '' ,
     },
     {
         id: 2,
