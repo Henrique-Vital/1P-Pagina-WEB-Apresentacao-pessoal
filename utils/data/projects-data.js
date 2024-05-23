@@ -12,10 +12,7 @@ export const projectsData = [
         tools: [
             "React", 
             "Node.js", 
-            "Express", 
-            "MongoDB", 
-            "APIs externas", 
-            "Análise de dados", 
+            "APIs externas",             
             "Automatização de processos"
         ],
         role: 'Desenvolvedor Front-end',
