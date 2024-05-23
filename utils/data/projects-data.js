@@ -23,16 +23,16 @@ export const projectsData = [
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
+        name: 'Connect2Trade Online Platform Service Copy',
+        description: 'Projetei e desenvolvi um site web full-stack, projeto pessoal, um site que  permite gerenciar múltiplas contas e oferece suporte a corretores forex e CFD usando MT4 e MT5 em todo o mundo, sem a necessidade de um VPS em execução 24 horas por dia, 7 dias por semana ou instalação de software. Usei de inspiração um template pronto e modifiquei algumas coisas usando NextJS, Typescript, TailwindCSS. Desenvolvi o back-end usando NestJS, Typescript, P o s t g r e S Q L. Implantei o aplicativo front-end na Vercel e o aplicativo back-end vou inplantar tambem na vercel. O sistema esta em desenvolvimento.',
+        tools: ['NextJS', 'Tailwind CSS', "NestJS", "TypeScript", " PostgreSQL"],
         role: 'Full Stack Developer',
         code: '',
         demo: '',
-        link: 'https://example.com',
+        link: 'https://connect2-trade.vercel.app/',
         image: travel,
     },
-   {
+ /*  {
         id: 3,
         name: 'AI Powered Real Estate',
         description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
@@ -53,7 +53,7 @@ export const projectsData = [
         image: ayla,
         link: 'https://example.com',
         role: 'Full Stack Developer',
-    },
+    },*/
 ];
 
 
