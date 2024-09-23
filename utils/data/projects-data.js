@@ -7,30 +7,42 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
     {
         id: 1,
-        name: 'Henrique Vital Portfólio',
-        description: 'Projetei e desenvolvi este portfólio front-end. Criei usando React/NextJS, TailwindCSS. Implantei o aplicativo na vercel.',
+        name: "Portfólio Web Site",
+        description: "Desenvolvi meu portfólio, utilizando Next.js, React e diversas bibliotecas para criar uma interface atraente e funcional. O portfólio apresenta meus projetos, habilidades e informações de contato de forma organizada e acessível.",
         tools: [
-            "React", 
-            "Node.js", 
-            "APIs externas",             
-            "Automatização de processos"
+            "Next.js",
+            "React",
+            "EmailJS",
+            "Axios",
+            "Lottie",
+            "React Icons",
+            "React Toastify",
+            "Tailwind CSS",
+            "Sass"
         ],
-        role: 'Desenvolvedor Front-end',
-        code: '', 
-        demo: '', 
-        link: 'https://henrique-vital-dev-five.vercel.app/', // Link para o perfil do GitHub
-        image: '' ,
-    },
+        code: "https://github.com/Henrique-Vital/henrique_vital_dev",
+        demo: "https://henrique-vital-dev-five.vercel.app/",
+        image: "image_path",
+        link: "https://henrique-vital-dev-five.vercel.app/",
+        role: "Desenvolvedor Front-end"
+    }
+    ,
     {
         id: 2,
-        name: 'Connect2Trade Online Platform Service Copy',
-        description: 'Projetei e desenvolvi um site web full-stack, projeto pessoal, um site que  permite gerenciar múltiplas contas e oferece suporte a corretores forex e CFD usando MT4 e MT5 em todo o mundo, sem a necessidade de um VPS em execução 24 horas por dia, 7 dias por semana ou instalação de software. Usei de inspiração um template pronto e modifiquei algumas coisas usando NextJS, Typescript, TailwindCSS. Desenvolvi o back-end usando NestJS, Typescript, P o s t g r e S Q L. Implantei o aplicativo front-end na Vercel e o aplicativo back-end vou inplantar tambem na vercel. O sistema esta em desenvolvimento.',
-        tools: ['NextJS', 'Tailwind CSS', "NestJS", "TypeScript", " PostgreSQL"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-        link: 'https://connect2-trade.vercel.app/',
-        image: travel,
+        name: 'Connect2Trade',
+        description: "Desenvolvi o Connect2Trade, uma aplicação web para facilitar a conexão entre contas mt4 mt5 e ctrader, criada para fazer a copia de operações de uma conta principal para suas contas secundarias. Utilizando Next.js, React, e Tailwind CSS, o Connect2Trade oferece uma interface moderna e responsiva, permitindo aos usuários navegar por produtos e serviços de forma eficiente.",
+    tools: [
+        "Next.js",
+        "React",
+        "Tailwind CSS",
+        "React Modal Video",
+        "Next Themes"
+    ],
+    code: "https://github.com/Henrique-Vital/connect2Trade",
+    demo: "https://connect2-trade.vercel.app/",
+    image: "image_path",
+    link: "https://connect2-trade.vercel.app/",
+    role: "Desenvolvedor Front-end"
     },
     {
         id: 3,
@@ -45,7 +57,7 @@ export const projectsData = [
     },
     {
         id: 4,
-        name: 'Disney+ Landing Page Clone',
+        name: 'Disney+ Landing Page',
         description: 'Desenvolvi um clone da landing page da Disney+ durante meu curso na EBAC. Utilizando HTML para estruturação, Sass para estilização, JavaScript para interatividade e Gulp para automação de tarefas. O projeto incluiu sliders de carrossel e botões interativos, com foco em eficiência e organização do código.',
         tools: ['HTML', 'Sass', 'JavaScript', 'Gulp'],
         code: 'https://lnkd.in/dwjz5tMh',
