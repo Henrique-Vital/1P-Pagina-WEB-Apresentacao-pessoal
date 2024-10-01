@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import ayla from '/public/image/ayla.jpg';
 import crefin from '/public/image/crefin.jpg';
 import realEstate from '/public/image/real-estate.jpg';
@@ -22,7 +21,7 @@ export const projectsData = [
         ],
         code: "https://github.com/Henrique-Vital/henrique_vital_dev",
         demo: "https://henrique-vital-dev-five.vercel.app/",
-        image: "image_path",
+        image: crefin,
         link: "https://henrique-vital-dev-five.vercel.app/",
         role: "Desenvolvedor Front-end"
     }
@@ -40,7 +39,7 @@ export const projectsData = [
     ],
     code: "https://github.com/Henrique-Vital/connect2Trade",
     demo: "https://connect2-trade.vercel.app/",
-    image: "image_path",
+    image: travel,
     link: "https://connect2-trade.vercel.app/",
     role: "Desenvolvedor Front-end"
     },
@@ -51,7 +50,7 @@ export const projectsData = [
         tools: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
         code: 'https://github.com/seu-usuario/buscadeusuarios-github',
         demo: 'https://buscadeusuarios-github.vercel.app/',
-        image: 'image_path',
+        image: realEstate,
         link: 'https://buscadeusuarios-github.vercel.app/',
         role: 'Desenvolvedor Front-end'
     },
@@ -62,7 +61,7 @@ export const projectsData = [
         tools: ['HTML', 'Sass', 'JavaScript', 'Gulp'],
         code: 'https://lnkd.in/dwjz5tMh',
         demo: 'https://disney-thor.vercel.app/',
-        image: 'ayla',
+        image: ayla,
         link: 'https://disney-thor.vercel.app/',
         role: 'Desenvolvedor Front-end'
     },
