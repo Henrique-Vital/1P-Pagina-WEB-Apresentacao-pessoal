@@ -9,7 +9,7 @@ function Projects() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    setProjects(projectsData.slice(0, 30));
+    setProjects(projectsData.slice(0, 18));
   }, []);
 
   return (
