@@ -2,7 +2,7 @@ export const experiences = [
   {
     id: 1,
     title: 'Desenvolvedor Front-end',
-    company: "Wyrd Solutions (freelance).",
+    company: "Wyrd Solutions.",
     duration: "(Abril 2023 - Presente)"
   },
   {
@@ -13,7 +13,7 @@ export const experiences = [
   },
   {
     id: 3,
-    title: "Produção",
+    title: "Analista de Melhoria de Processos na Produção",
     company: "Embraer.",
     duration: "(Jan 2000 - Dez 2008)"
   }

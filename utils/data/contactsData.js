@@ -1,5 +1,5 @@
 export const contactsData = {
-    email: 'hbvbrasil@gmail.com',
+    email: 'henriquebvital@gmail.com',
     phone: '+5512996172198',
     address: 'São José dos Campos, SP, Brasil ',
     github: 'https://github.com/Henrique-Vital',
