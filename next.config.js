@@ -17,5 +17,6 @@ module.exports = {
         pathname: '**',
       },
     ],
+    domains: ['media2.dev.to'],
   },
 }

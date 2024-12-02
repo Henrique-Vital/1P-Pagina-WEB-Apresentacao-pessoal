@@ -7,5 +7,5 @@ export const contactsData = {
     linkedIn: 'https://www.linkedin.com/in/henrique-vital/',
     twitter: 'https://twitter.com/HVitall',
     stackOverflow: 'https://stackoverflow.com/users/21260425/henrique-vital?tab=profile',
-    devUsername: "vital7388"
+    devUsername: "java2890"
 }

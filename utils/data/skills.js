@@ -5,7 +5,6 @@ export const skillsData = [
   'Typescript',
   'React',
   'Python',
-  'SQL',  
   'Next JS',
   'Tailwind',
   'MongoDB',
@@ -13,7 +12,6 @@ export const skillsData = [
   'PostgreSQL',
   'Git',  
   'Bootstrap',
-  'Excel',
   'Figma'
   
 ]
