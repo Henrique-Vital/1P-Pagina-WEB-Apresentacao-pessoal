@@ -31,7 +31,7 @@ function ContactWithoutCaptcha() {
     }
   
     try {
-      const response = await fetch('http://127.0.0.1:5000/api/telegram', { // Alterado para /api/telegram
+      const response = await fetch('https://portfolio-hbv-backend.vercel.app/api/telegram', { // Alterado para /api/telegram
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
