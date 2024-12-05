@@ -50,7 +50,7 @@ function ProjectCard({ project }) {
             </span>
           ))}
         </div>
-        <p className='text-sm lg:text-base text-[#d3d8e8] pb-3 lg:pb-6 line-clamp-3'>
+        <p className='text-sm lg:text-base text-[#d3d8e8] pb-3 lg:pb-6'>
           {project.description}
         </p>
         {project.status !== 'production' && (

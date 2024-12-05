@@ -28,27 +28,25 @@ function ContactWithoutCaptcha() {
     if (!input.email || !input.message || !input.name) {
       setError({ ...error, required: true });
       return;
-    } else if (error.email) {
-      return;
-    } else {
-      setError({ ...error, required: false });
     }
-
+  
     try {
-      const response = await fetch('/api/telegram', {
+      const response = await fetch('/api/contact', { // Verifique se está chamando a API correta
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          message: `Nome: ${input.name}\nEmail: ${input.email}\nMensagem: ${input.message}`,
+          name: input.name,
+          email: input.email,
+          message: input.message,
         }),
       });
-
+  
       if (!response.ok) {
         throw new Error('Erro ao enviar a mensagem');
       }
-
+  
       setFeedbackMessage('Mensagem enviada com sucesso!');
       setInput({
         name: '',

@@ -9,7 +9,7 @@ export async function POST(request) {
   const message = reqBody.message;
 
   try {
-    const response = await axios.post(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+    const response = await axios.post(`https://api.telegram.org/bot<YOUR_BOT_TOKEN>/sendMessage`, {
       chat_id: groupUsername,
       text: message,
     });
@@ -25,4 +25,4 @@ export async function POST(request) {
       success: false,
     }, { status: 500 });
   }
-} 
+}
