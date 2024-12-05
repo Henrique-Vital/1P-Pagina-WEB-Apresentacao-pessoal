@@ -26,7 +26,7 @@ function ContactWithCaptcha() {
     setError({ email: false, required: false });
 
     if (!captcha) {
-      toast.error('Please complete the captcha!');
+      toast.error('Por favor, complete o captcha!');
       setLoading(false);
       return;
     }
@@ -38,7 +38,7 @@ function ContactWithCaptcha() {
     }
 
     try {
-      const response = await fetch('/api/telegram', {
+      const response = await fetch('/api/telegram', { // Verifique se a URL está correta
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

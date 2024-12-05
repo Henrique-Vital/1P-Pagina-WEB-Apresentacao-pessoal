@@ -31,7 +31,7 @@ function ContactWithoutCaptcha() {
     }
   
     try {
-      const response = await fetch('/api/contact', { // Verifique se está chamando a API correta
+      const response = await fetch('http://127.0.0.1:5000/api/telegram', { // Alterado para /api/telegram
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
